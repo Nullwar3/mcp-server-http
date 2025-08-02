@@ -54,4 +54,7 @@ When connecting to this server, clients should use the HTTP transport configurat
 
 - `npm run server:dev`: Run in development mode with hot reload
 - `npm run server:build`: Build the TypeScript code
-- `npm run server:inspect`: Run with MCP inspector for testing
+- `npx @modelcontextprotocol/inspector`: Run the MCP inspector for testing
+    - Take the `Session token` from the command-line and insert it into the Configuration->Proxy Session Token field
+    - Specify the URL `http://localhost:3000/mcp`
+    - Click connect
